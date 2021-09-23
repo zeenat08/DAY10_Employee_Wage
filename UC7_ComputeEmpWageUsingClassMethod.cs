@@ -41,7 +41,7 @@ namespace day4
                 Console.WriteLine("Days#: " + totalWorkingDays + " Emp Hrs : " + empHrs);
             }
             int totalEmpWage = totalEmpHrs * EMP_RATE_PER_HOUR;
-            Console.WriteLine("Total Emp Wage: " + totalEmpWage);
+            Console.WriteLine("Total emp wage: " + totalEmpWage);
             return totalEmpWage;
         }
     }
