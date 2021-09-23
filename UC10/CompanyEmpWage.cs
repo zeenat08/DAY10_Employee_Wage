@@ -27,7 +27,7 @@ namespace day4.UC10
 
         public string toString()
         {
-            return "Total Emp Wage for company : " + this.company + " is : " + this.totalEmpWage;
+            return "Total emp wage for company : " + this.company + " is : " + this.totalEmpWage;
         }
     }
 }
