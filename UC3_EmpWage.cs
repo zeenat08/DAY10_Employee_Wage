@@ -24,7 +24,7 @@ namespace day4
             //else
             //empHrs = 0;
             empWage = empHrs * EMP_RATE_PER_HOUR;
-            Console.WriteLine("Emp Wage: " + empWage);
+            Console.WriteLine("Emp wage: " + empWage);
             Console.ReadKey();
         }
     }
