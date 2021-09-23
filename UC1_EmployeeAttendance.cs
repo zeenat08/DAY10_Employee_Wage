@@ -4,7 +4,7 @@ using System.Text;
 
 namespace day4
 {
-    class  UC1_EmployeeAtttendance
+    class  UC1_EmployeeAtttendance 
     {
         public static void GetAttendance()
         {
@@ -12,9 +12,9 @@ namespace day4
             Random random = new Random();
             int empCheck = random.Next(0, 2);
             if (empCheck == IS_FULL_TIME)
-                Console.WriteLine("Employee is present");
+                Console.WriteLine("Employee is Present");
             else
-                Console.WriteLine("Employee is absent");
+                Console.WriteLine("Employee is Absent");
             Console.ReadKey();
         }
 
