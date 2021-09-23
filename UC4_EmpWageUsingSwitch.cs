@@ -35,7 +35,7 @@ namespace day4
                     break;
             }
             empWage = empHrs * EMP_RATE_PER_HOUR;
-            Console.WriteLine("Emp Wage: " + empWage);
+            Console.WriteLine("Emp wage: " + empWage);
         }
     }
 }
